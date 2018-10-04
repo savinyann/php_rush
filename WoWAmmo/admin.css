@@ -1,0 +1,27 @@
+nav{
+   background-color: rgb(30, 30, 30);
+   padding: 50px;
+
+}
+
+nav p{
+   float: left;
+   font-size: 25px;
+   color: rgb(230, 230, 230);
+}
+
+nav button{float: right;}
+
+
+.dropdown-menu{
+   font-size: 10px;
+}
+
+.drpodown-item{
+   font-size: 19px;
+   color: rgb(30, 30, 30);
+}
+
+.show{
+   float: left;
+}

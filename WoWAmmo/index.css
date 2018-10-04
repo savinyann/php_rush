@@ -1,0 +1,115 @@
+html
+{
+	width: 100%;
+	height: 100%;
+}
+
+body
+{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	background-image: url('http://cleancanvas.herokuapp.com/img/backgrounds/color-splash.jpg');
+	background-repeat: no-repeat;
+	opacity: 0.8;
+}
+
+#banner{
+	background-size: cover;
+	background-color: rgba(20,20,20,0.8);
+	padding: 50px 0px;
+	text-align: center;
+}
+
+#banner h1{
+	color: rgb(240,240,240);
+	font-size: 60px;
+}
+
+#banner p{
+	color: rgb(200,200,200);
+	font-size: 25px;
+	opacity: 0.8;
+}
+
+.hello
+{
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+}
+
+
+.hello p
+{
+	vertical-align: middle;
+	width: 40%;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.wrapermain
+{
+	display: flex;
+	flex-direction: row-reverse;
+	height: 100%;
+}
+
+.wrapermain main
+{
+	width: 80%;
+	opacity: 0.8;
+}
+
+.wrapermain aside
+{
+	width: 20%;
+	border-style: solid;
+	border-width: 5px;
+	border-color: 
+	opacity: 0.8;
+}
+
+aside button
+{
+	margin-top: 10px;
+}
+
+main div
+{
+	color: white;
+	font-size: 45px;
+}
+
+.blopy
+{
+	font-size: 0.4em;
+	color: black !important;
+}
+
+.nopo
+{
+	margin-top: 30px;
+	font-size: 20px;
+	margin-left: 30px;
+	font-weight: bold;
+}
+
+.my_list
+{
+	color : black !important;
+	padding-left: -40px;
+	margin-left: 20px;
+	font-size: 30px important;
+}
+
+.my_link
+{
+	color: black;
+}
