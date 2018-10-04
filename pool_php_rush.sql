@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.58, for debian-linux-gnu (x86_64)
+-- MySQL dump 10.13  Distrib 5.5.60, for debian-linux-gnu (x86_64)
 --
 -- Host: localhost    Database: pool_php_rush
 -- ------------------------------------------------------
--- Server version	5.5.58-0+deb8u1
+-- Server version	5.5.60-0+deb8u1
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -64,7 +64,7 @@ CREATE TABLE `products` (
 
 LOCK TABLES `products` WRITE;
 /*!40000 ALTER TABLE `products` DISABLE KEYS */;
-INSERT INTO `products` VALUES (1,'Excalibur',3000,8,'pict/excalibur.jpeg','description'),(2,'Mjolnir',3000,7,'pict/mjolnir.jpg','description'),(12,'Luna Bow',3000,12,'pict/luna_bow.jpg','description'),(13,'Destruction Staff',3000,15,'pict/wand.jpg','description'),(14,'Zuan and Wuan',2500,24,'pict/warrior.jpg','description'),(15,'Bibi and Lulu',2500,25,'pict/wizard.jpg','description'),(16,'Sinbad and Rikku',2500,28,'pict/thief.jpg','description'),(17,'Zephy and Fanny',2500,27,'pict/archer.jpg','description'),(18,'Emile and Yuna',2500,27,'pict/priest.jpg','description'),(19,'Longsword',1000,11,'pict/longsword.jpeg','description'),(20,'Wooden sword',50,8,'pict/wooden_sword.jpg','description'),(21,'Kirito Sword',5000,8,'pict/kirito_sword.jpg','description'),(22,'Asuna Sword',5000,8,'pict/asuna_sword','description'),(23,'Composite Bow',5000,12,'pict/composite_bow.jpg','description'),(24,'Great Axe',5000,6,'pict/great_axe.jpg','description'),(25,'Hallebard',5000,10,'pict/hallebard.jpg','description'),(26,'Imgur',5000,6,'pict/imgur.jpg','description'),(27,'Orcish Mace',500,7,'pict/orcish_mace.jpg','description'),(28,'Reammer',3500,10,'pict/reammer.jpg','description'),(29,'Polarys',2500,9,'pict/polarys.jpg','description'),(30,'Aeterna',4500,9,'pict/aeterna.jpg','description'),(31,'Muramasa',2500,9,'pict/muramasa.jpg','description'),(32,'Master Sword',3000,9,'pict/master_sword.jpg','description'),(33,'Sulfura',3000,10,'pict/sulfura.jpg','description'),(34,'Dual Guns',3000,13,'pict/dual_gun.jpg','description'),(35,'Assault Rifle',3500,13,'pict/assault_rifle.jpg','description'),(36,'Hyrule Shield',1500,14,'pict/hyurule_shield.jpg','description'),(37,'My Little Shield',500,14,'pict/mlp_shield.jpg','description'),(38,'Magical Scepter',2750,15,'pict/magical_scepter.png','description'),(39,'Boba Fett Helmet',1500,17,'pict/boba_fett_helmet.jpg','description'),(40,'Halo Helmet',3500,17,'pict/halo_helmet.jpg','description'),(41,'Leather Shoulder',750,18,'pict/leather_shoulder.jpg','description'),(42,'Steel Shoulder',1750,18,'pict/steel_shoulder.jpg','description'),(43,'Roman Armor',1750,19,'pict/roman_armor.jpg','description'),(44,'Pack Armor',50,19,'pict/pack_armor.jpg','description'),(45,'Megalodon',50,19,'pict/megalodon.jpg','description'),(46,'Purple Claw',50,19,'pict/purple_claw.jpg','description'),(47,'Plate Gauntlet',50,19,'pict/plate_gauntlet.jpg','description'),(48,'Leather Armguard',500,19,'pict/leather_arm_guard.jpg','description'),(49,'Yuna and Tidus',5500,4,'pict/yuna_tidus.jpg','description'),(50,'MK440',5050,1,NULL,'description');
+INSERT INTO `products` VALUES (1,'Excalibur',3000,8,'pict/excalibur.jpeg','description'),(2,'Mjolnir',3000,7,'pict/mjolnir.jpg','description'),(12,'Luna Bow',3000,12,'pict/luna_bow.jpg','description'),(13,'Destruction Staff',3000,15,'pict/wand.jpg','description'),(14,'Zuan and Wuan',2500,24,'pict/warrior.jpg','description'),(15,'Bibi and Lulu',2500,25,'pict/wizard.jpg','description'),(16,'Sinbad and Rikku',2500,28,'pict/thief.jpg','description'),(17,'Zephy and Fanny',2500,27,'pict/archer.jpg','description'),(18,'Emile and Yuna',2500,27,'pict/priest.jpg','description'),(19,'Longsword',1000,11,'pict/longsword.jpeg','description'),(20,'Wooden sword',50,8,'pict/wooden_sword.jpg','description'),(21,'Kirito Sword',5000,8,'pict/kirito_sword.jpg','description'),(22,'Asuna Sword',5000,8,'pict/asuna_sword','description'),(23,'Composite Bow',5000,12,'pict/composite_bow.jpg','description'),(24,'Great Axe',5000,6,'pict/great_axe.jpg','description'),(25,'Hallebard',5000,10,'pict/hallebard.jpg','description'),(26,'Imgur',5000,6,'pict/imgur.jpg','description'),(27,'Orcish Mace',500,7,'pict/orcish_mace.jpg','description'),(28,'Reammer',3500,10,'pict/reammer.jpg','description'),(29,'Polarys',2500,9,'pict/polarys.jpg','description'),(30,'Aeterna',4500,9,'pict/aeterna.jpg','description'),(31,'Muramasa',2500,9,'pict/muramasa.jpg','description'),(32,'Master Sword',3000,9,'pict/master_sword.jpg','description'),(33,'Sulfura',3000,10,'pict/sulfura.jpg','description'),(34,'Dual Guns',3000,13,'pict/dual_gun.png','description'),(35,'Assault Rifle',3500,13,'pict/assault_rifle.jpg','description'),(36,'Hyrule Shield',1500,14,'pict/hyurule_shield.jpg','description'),(37,'My Little Shield',500,14,'pict/mlp_shield.jpg','description'),(38,'Magical Scepter',2750,15,'pict/magical_scepter.png','description'),(39,'Boba Fett Helmet',1500,17,'pict/boba_fett_helmet.jpg','description'),(40,'Halo Helmet',3500,17,'pict/halo_helmet.jpg','description'),(41,'Leather Shoulder',750,18,'pict/leather_shoulder.jpg','description'),(43,'Roman Armor',1750,19,'pict/roman_armor.jpg','description'),(44,'Pack Armor',50,19,'pict/pack_armor.jpg','description'),(45,'Megalodon',50,19,'pict/megalodon.jpg','description'),(46,'Purple Claw',50,19,'pict/purple_claw.jpg','description'),(47,'Plate Gauntlet',50,19,'pict/plate_gauntlet.jpg','description'),(48,'Leather Armguard',500,19,'pict/leather_arm_guard.jpg','description'),(49,'Yuna and Tidus',5500,4,'pict/yuna_tidus.jpg','description'),(50,'MK440',5050,1,NULL,'description');
 /*!40000 ALTER TABLE `products` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -82,7 +82,7 @@ CREATE TABLE `users` (
   `email` varchar(50) DEFAULT NULL,
   `admin` tinyint(4) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -91,7 +91,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'Yann03','$2y$10$Fwxmjf71ZWvj/24kfAA/TuXyBdiN81cXEGMwP7IgU5suLiIOJvRWa','mdp@1234.fr',1),(2,'Erick','$2y$10$FTQ8emShjIGo8KQk6/B0PuHIHQw1UfZ0w83JUGgMaQojPusjJKaY6','savinerick@hotmail.com',0),(3,'bobo','$2y$10$Ke5CxHvM6hCcTRx0fWScUOXt23gjQWOlckKSViWratwKTS/xOcUTW','bobo@bobo.bobo',0);
+INSERT INTO `users` VALUES (1,'admin','$2y$10$UXpYK5bmdZDHALIPP5pXIuFcTKHMEPaqYi3Fc1Vw/xUQ4Ozwqj/Wq','admin@wowa.com',1);
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -104,4 +104,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-12-16 18:07:57
+-- Dump completed on 2018-10-04 11:56:42
