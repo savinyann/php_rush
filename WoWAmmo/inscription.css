@@ -1,0 +1,77 @@
+.register{
+   width: 35%;
+   margin: auto;
+   text-align: center;
+   margin: auto;
+   padding: 30px;
+   background: black;
+}
+
+.register h1{
+   color: rgb(200, 200, 200);
+   margin-bottom: 10px;
+}
+
+.register p{
+   margin-top: 10px;
+   padding-top: 2px;
+   color: rgb(255, 255, 255);
+}
+
+.register label{
+   margin-top: 6px;
+   float: left;
+   color: rgb(230, 230, 230);
+   opacity: 0.75;
+}
+
+.register input{
+   margin-bottom: 6px;
+}
+
+.register button{
+   margin-top: 35px;
+   margin-bottom: 15px;
+   background-color: #4c70ba;
+}
+
+.btn
+{
+   outline:0;
+   border:none;
+   border-top:none;
+   border-bottom:none;
+   border-left:none;
+   border-right:none;
+   box-shadow:inset 2px -3px rgba(0,0,0,0.15);
+}
+.btn:focus
+{
+   outline:0;
+   -webkit-outline:0;
+   -moz-outline:0;
+}
+.fullscreen_bg {
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-size: cover;
+   background-position: 50% 50%;
+   background-image: url('http://cleancanvas.herokuapp.com/img/backgrounds/color-splash.jpg');
+   background-repeat:repeat;
+   opacity: 0.8;
+}
+
+a {
+   text-decoration: underline;
+   color: #a00;
+}
+a:visited {
+   color: #844;
+}
+a:hover, a:focus, a:active {
+   text-decoration: none;
+   color: blue;
+}
